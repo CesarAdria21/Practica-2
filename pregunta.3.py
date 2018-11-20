@@ -7,5 +7,12 @@ for i in range(filas):
 for f in range(filas):
     for c in range(columnas):
         matriz[f][c] = int(input("Elemento %d, %d : " % (f,c)))
+        suma =matriz[0][0]+matriz[1][1] #Solo funciona si es 2*2 :(
+    
+
+
 
 print (matriz)
+print ("La suma de la diagonal es: ",suma)
+
+
